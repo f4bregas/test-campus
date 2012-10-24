@@ -1,0 +1,102 @@
+/* CSS Document */
+
+/* TIPO DE LETRA */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(font/lato-normal.woff) format('woff');
+}
+
+body .ui-body-c{
+	font-size:14px;
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+/* SMARTPHONE */
+
+
+.spacer{clear:both;}
+
+
+/* BARRA DE TOPO */
+.top_bar{
+	background: #97c356; /* Old browsers */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#97c356), color-stop(24%,#93bf51), color-stop(100%,#7fac3c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #97c356 0%,#93bf51 24%,#7fac3c 100%); /* Chrome10+,Safari5.1+ */
+	background: linear-gradient(to bottom,  #97c356 0%,#93bf51 24%,#7fac3c 100%); /* W3C */
+	
+	border-top:1px solid #97c356;
+	border-bottom:1px solid #93bf51;
+	
+	min-height:44px;
+}
+
+#logo_div{
+	float:left;
+	width:130px;
+	height:44px;
+	background:url(../images/campus_logo.png) no-repeat center;
+	border-bottom:1px solid rgba(0,0,0,0);
+	padding-left:30px;
+}
+#logo_div:active, #logo_div:hover{
+	background-color: #97c356;
+}
+
+#notif_div{
+	float:right;
+	
+	width:50px;
+	height:44px;
+	
+	background:url(../images/note1.png) no-repeat center;
+	
+	border-left:1px solid rgba(107,146,51,0.4);
+	-webkit-box-shadow:-1px 0px 1px 0px rgba(255,255,255,0.2);
+	box-shadow:-1px 0px 1px 0px rgba(255,255,255,0.2);
+	border-bottom:1px solid rgba(0,0,0,0);
+	
+	text-align:center;
+	font-size:10px;
+}
+#notif_div:active, #notif_div:hover{
+	background-color: #97c356;
+}
+#notif_number{
+	margin-top:10px;
+	margin-left:20px;	
+}
+
+/* BARRA DE FUNDO */
+#myFooter{
+	min-height:50px;
+	border-bottom:0px solid #000;
+	text-align:center;
+	
+	background: rgb(82,83,77); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(82,83,77,1) 0%, rgba(75,76,71,1) 26%, rgba(54,54,52,1) 77%, rgba(48,48,47,1) 98%, rgba(61,61,60,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(82,83,77,1)), color-stop(26%,rgba(75,76,71,1)), color-stop(77%,rgba(54,54,52,1)), color-stop(98%,rgba(48,48,47,1)), color-stop(100%,rgba(61,61,60,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(82,83,77,1) 0%,rgba(75,76,71,1) 26%,rgba(54,54,52,1) 77%,rgba(48,48,47,1) 98%,rgba(61,61,60,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: linear-gradient(to bottom,  rgba(82,83,77,1) 0%,rgba(75,76,71,1) 26%,rgba(54,54,52,1) 77%,rgba(48,48,47,1) 98%,rgba(61,61,60,1) 100%); /* W3C */
+	
+	font-size:24px;
+}
+
+.menu_btn{
+	padding-top:12px;
+	min-height:50px;
+}
+
+.menu_btn.open{
+	-webkit-box-shadow:inset 0px 0px 4px 2px rgba(0,0,0,0.5);
+	box-shadow:inset 0px 0px 4px 2px rgba(0,0,0,0.5);
+	
+	
+	background: rgb(66,66,62); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(66,66,62,1) 0%, rgba(61,62,57,1) 23%, rgba(39,39,38,1) 93%, rgba(38,38,38,1) 98%, rgba(50,50,49,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(66,66,62,1)), color-stop(23%,rgba(61,62,57,1)), color-stop(93%,rgba(39,39,38,1)), color-stop(98%,rgba(38,38,38,1)), color-stop(100%,rgba(50,50,49,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(66,66,62,1) 0%,rgba(61,62,57,1) 23%,rgba(39,39,38,1) 93%,rgba(38,38,38,1) 98%,rgba(50,50,49,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: linear-gradient(to bottom,  rgba(66,66,62,1) 0%,rgba(61,62,57,1) 23%,rgba(39,39,38,1) 93%,rgba(38,38,38,1) 98%,rgba(50,50,49,1) 100%); /* W3C */
+	
+}
